@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#addBtn {
+    cursor: pointer;
+}
+
+.cyrcle:hover {
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: rgba(240, 236, 236, 0.308);
+    box-shadow: 0px 0px 10px -2px rgba(97, 96, 96, 0.73);
+    border: lightgray 1px solid;
+    width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    min-height: 600px;
+    position: relative;
+}
+
+.header .date {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.header .todo {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.main li {
+    display: flex;
+    box-shadow: 0px 0px 10px -2px rgba(97, 96, 96, 0.73);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.main li .cyrcle {
+    font-size: 30px;
+}
+
+.main li .cyrcle .far {
+    margin-right: 10px;
+}
+
+.lineThrough {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.main .taskText .task {
+    font-size: 17px;
+}
+
+.taskText {
+    flex-grow: 1;
+}
+
+.main .taskText .taskDate {
+    font-size: 10px;
+    color: lightgrey;
+}
+
+.main .fas {
+    color: red;
+    font-size: 30px;
+    justify-content: flex-end;
+    text-align: end;
+    background-color: blue;
+}
+
+.addTask {
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTask input {
+    width: 90%;
+    padding: 5px;
+    background-color: rgb(248, 248, 248);
+    border: lightgrey solid 1px;
+    border-radius: 8px;
+    font-size: 15px;
+    box-shadow: 0px 0px 18px -2px rgba(143, 143, 143, 0.73);
+}
+
+.addTask i {
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(63, 63, 252);
+}
